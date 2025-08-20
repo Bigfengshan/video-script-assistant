@@ -1,0 +1,14 @@
+Testing register...
+Register response: { error: '该邮箱已被注册' }
+
+Testing login...
+Login response: {
+  message: '登录成功',
+  user: {
+    id: 'c1caa728-a616-425f-b0e0-4442795d0721',
+    email: 'admin@bigfan007.cn',
+    name: 'Admin User',
+    created_at: '2025-08-17T01:01:08.222998+00:00'
+  },
+  token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJjMWNhYTcyOC1hNjE2LTQyNWYtYjBlMC00NDQyNzk1ZDA3MjEiLCJlbWFpbCI6ImFkbWluQGJpZ2ZhbjAwNy5jbiIsImlhdCI6MTc1NTM5MjQ4NiwiZXhwIjoxNzU1OTk3Mjg2fQ.PEvFaSdyLsfUnL2KMWO_G7Y4foXQ9jwb2A_NCm40RN4'
+}
