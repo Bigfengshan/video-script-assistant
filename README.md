@@ -120,3 +120,4 @@ npm run build
 ├── supabase/           # 数据库迁移
 └── migrations/         # SQL迁移文件
 ```
+# video-script-assistant
