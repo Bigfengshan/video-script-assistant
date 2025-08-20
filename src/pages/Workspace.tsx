@@ -57,7 +57,7 @@ const IframeAgent: React.FC<IframeAgentProps> = ({ agent, onError }) => {
   const [iframeUrl, setIframeUrl] = useState<string | null>(null)
   const [urlLoading, setUrlLoading] = useState(true)
 
-  const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3002'
+  const API_BASE_URL = import.meta.env.VITE_API_URL || ''
 
   // 获取iframe URL
   const fetchIframeUrl = async () => {
@@ -397,7 +397,7 @@ const Workspace: React.FC = () => {
   const [networkStatus, setNetworkStatus] = useState<'online' | 'offline' | 'checking'>('checking')
   const [lastNetworkCheck, setLastNetworkCheck] = useState<Date>(new Date())
 
-  const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3002'
+  const API_BASE_URL = import.meta.env.VITE_API_URL || ''
 
   // 网络状态检测
   const checkNetworkStatus = async () => {
